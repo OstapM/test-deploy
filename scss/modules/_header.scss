@@ -1,0 +1,32 @@
+.main-menu-container {
+	position: absolute;
+	width: 100%;
+	top: 60px;
+	z-index: 15;
+  @media screen and (min-width: $md) {
+    top: 110px;
+  }
+}
+
+.main-menu {
+	font-family: $segoe-smb;
+
+	.dropdown-menu.show {
+		background-color: #dfebfc;
+		z-index: 1;
+		border: none;
+    top: -30px!important;
+    left: -2px;
+    min-width: 100px!important;
+	}
+
+	a {
+		color: #006c84;
+		line-height: 30px;
+
+		&:hover, &:active {
+			text-decoration: none;
+			color: $txt-red;
+		}
+	}
+}

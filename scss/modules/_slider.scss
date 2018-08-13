@@ -1,0 +1,38 @@
+.slider-section {
+	border-top: 1px solid #006c84;
+	border-bottom: 1px solid #006c84;
+	padding: 25px 0 20px;
+
+	.swiper-wrapper {
+		align-items: center;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		padding: 0 25px;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.swiper-button-next, 
+	.swiper-button-prev {
+		background-image: none;
+		font-size: 26px;
+		width: 16px;
+
+		.fa {
+			line-height: 44px;
+		}
+	}
+
+	.swiper-button-next {
+		right: 0;
+	}
+
+	.swiper-button-prev {
+		left: 0;
+	}
+}

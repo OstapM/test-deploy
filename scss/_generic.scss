@@ -1,0 +1,32 @@
+.main-wrapper {
+	
+	.container {
+		@media (min-width: 1230px) {
+    		max-width: 1200px;
+    	}
+	}
+
+	.porfolio-content {
+		.container {
+			@media (min-width: 1440px) {
+	    		max-width: 1170px!important;
+	    	}
+		}
+	}
+}
+
+.red-text {
+	color: $txt-red;
+}
+
+.page-content {
+	transition: all ease 0.5s;
+
+	@media screen and (min-width: $md) {
+		margin-left: 270px;
+	}
+}
+
+a {
+	transition: all ease 0.3s;
+}

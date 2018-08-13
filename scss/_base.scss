@@ -1,0 +1,21 @@
+body {
+	font-size: 14px;
+	font-family: $segoe;
+	line-height: 1.2;
+	color: $main-txt-clr;
+}
+
+h1, h2 {
+	font-family: $segoe-b;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 18px;	
+}

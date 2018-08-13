@@ -1,0 +1,25 @@
+.contact-form {
+
+	input, textarea {
+		background-color: #eaf2fc;
+		border: none;
+		border-radius: 0;
+		color: $main-txt-clr;
+		padding: 15px 35px;
+
+		@include input-placeholder {
+			color: #6eb5c0;
+			letter-spacing: 0.14px;
+			opacity: 1;
+		}
+	}
+
+	textarea {
+		resize: none;
+		min-height: 220px;
+	}
+
+	.form-group {
+		margin-bottom: 14px;
+	}
+}

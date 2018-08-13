@@ -1,0 +1,22 @@
+.get-in-touch {
+	.touch-text-part {
+		background-color: #e9f2fc;
+		padding: 25px 0 10px;
+		font-size: 14px;
+		line-height: 1.33;
+		font-family: $segoe-l;
+		font-weight: bold;
+
+		@media screen and (min-width: $md) {
+			font-size: 18px;
+		}
+	}
+
+	p {
+		margin-bottom: 15px;
+	}
+
+	.button-block {
+		margin: 35px 0 30px;
+	}
+}

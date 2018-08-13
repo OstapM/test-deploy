@@ -1,0 +1,29 @@
+.main-footer {
+	padding: 30px 0;
+	letter-spacing: 0.14px;
+
+	.copyrights {
+		margin-bottom: 0;
+	}
+}
+
+.footer-nav {
+	li {
+		a {
+			color: $main-txt-clr;
+			font-family: $segoe-smb;
+			text-transform: uppercase;
+			
+			&:hover, &:active {
+				text-decoration: none;
+				color: $txt-red;
+			}	
+		}
+	}
+
+	.active {
+		a {
+			color: $btn-red;
+		}
+	}
+}
